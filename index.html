@@ -1,37 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LVFT Training Camp</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <!-- Navbar Section -->
-    <nav class="navbar">
-      <a href="/" class="navbar-logo">LVFT</a>
-      <div class="navbar-toggle" id="mobile-menu">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LVFT Training Camp</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous" />
+</head>
+
+<body>
+  <!-- Navbar Section -->
+  <nav class="navbar">
+    <a href="/" class="navbar-logo">LVFT</a>
+    <div class="navbar-toggle" id="mobile-menu">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+    <div class="navbar-menu">
+      <a href="/" class="navbar-link">Home</a>
+      <a href="/services.html" class="navbar-link">Services</a>
+      <a href="/plans.html" class="navbar-link">Plans</a>
+      <a href="/trainers.html" class="navbar-link">Trainers</a>
+    </div>
+  </nav>
+  <!-- Hero Section -->
+  <div class="hero">
+    <div class="hero-content">
+      <h1>LVFT Training Camp</h1>
+      <p>Join Now for $29</p>
+      <a href="/" class="button">Get Started</a>
+    </div>
+  </div>
+  <!-- Services Section -->
+  <div class="services">
+    <div class="services-container">
+      <div>
+        <p class="topline">Features</p>
+        <h1 class="services-heading">What we offer</h1>
+        <div class="services-features">
+          <p class="services-feature">
+            <i class="fas fa-check-circle"></i> Group Fitness Classes
+          </p>
+          <p class="services-feature">
+            <i class="fas fa-check-circle"></i> Personal Training Sessions
+          </p>
+          <p class="services-feature">
+            <i class="fas fa-check-circle"></i> Muay Thai Kickboxing
+          </p>
+          <p class="services-feature">
+            <i class="fas fa-check-circle"></i> MMA
+          </p>
+          <p class="services-feature">
+            <i class="fas fa-check-circle"></i> Gym Access
+          </p>
+        </div>
       </div>
-      <div class="navbar-menu">
-        <a href="/" class="navbar-link">Home</a>
-        <a href="/services.html" class="navbar-link">Services</a>
-        <a href="/plans.html" class="navbar-link">Plans</a>
-        <a href="/trainers.html" class="navbar-link">Trainers</a>
-      </div>
-    </nav>
-    <!-- Hero Section -->
-    <div class="hero">
-      <div class="hero-content">
-        <h1>LVFT Training Camp</h1>
-        <p>Join Now for $29</p>
-        <a href="/" class="button">Get Started</a>
+      <div>
+        <img src="./images/hero-2.jpg" alt="gym" class="services-img" />
       </div>
     </div>
+  </div>
+  <!-- Membership Section -->
+  <div class="memberships">
+    <h1>View Our Plans</h1>
+    <p class="membership-desc">Get started today and receive 25% off your first month</p>
+    <div class="membership-wrapper">
+      <div class="membership-card">
+        <div class="membership-title">
+          <i class="fas fa-dumbbell card-icon"></i>
+          <h3>Starter</h3>
+        </div>
+        <div class="membership-perks">
+          <p>Get access to the entire gym</p>
+          <p>$29 per month</p>
+        </div>
+        <a href="/" class="button">Sign Up</a>
+      </div>
+      <div class="membership-card">
+        <div class="membership-title">
+          <i class="fas fa-bicycle card-icon"></i>
+          <h3>Silver</h3>
+        </div>
+        <div class="membership-perks">
+          <p>Get access to the entire gym</p>
+          <p>Group Fitness Classes</p>
+          <p>$49 per month</p>
+        </div>
+        <a href="/" class="button">Sign Up</a>
+      </div>
+      <div class="membership-card">
+        <div class="membership-title">
+          <i class="fas fa-dumbbell card-icon"></i>
+          <h3>Gold</h3>
+        </div>
+        <div class="membership-perks">
+          <p>Get access to the entire gym</p>
+          <p>Group Fitness Classes</p>
+          <p>Private Personal Training</p>
+          <p>$99 per month</p>
+        </div>
+        <a href="/" class="button">Sign Up</a>
+      </div>
+    </div>
+  </div>
+  <!-- Team Section -->
+  <script src="app.js"></script>
+</body>
 
-    <script src="app.js"></script>
-  </body>
 </html>
