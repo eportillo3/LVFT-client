@@ -20,11 +20,18 @@
   align-items: center;
 }
 
+.nav-logo {
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
 .navbar-logo {
   color: var(--white);
   text-decoration: none;
   padding-left: 1rem;
   font-size: 1.5rem;
+  height: 25px;
 }
 
 .navbar-link {
@@ -301,9 +308,13 @@
   font-size: 3rem;
 }
 
+#maria-text {
+  margin-bottom: 145px;
+}
+
 .team-img {
   width: 100%;
-  height: 100%;
+  height: auto;
   border-radius: 10px;
 }
 
@@ -371,6 +382,10 @@
   .team-card:nth-child(6) {
     grid-row: 2/3;
     grid-column: 1/2;
+  }
+
+  #maria-text {
+    margin-bottom: 0px;
   }
 }
 
